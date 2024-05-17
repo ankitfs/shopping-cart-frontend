@@ -1,0 +1,18 @@
+.login-form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-input-div label {
+    border: 1px solid lightgray;
+    width: 30%;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin: 10px 0;
+    color: green;
+}

@@ -1,4 +1,4 @@
-import ProductListingComponent from "./components/ProductListingComponent";
+import LoginPageComponent from "./components/LoginPageComponent";
 import HeaderComponent from "./components/header/HeaderComponent";
 import { BrowserRouter,Routes, Route } from 'react-router-dom'; 
 
@@ -8,7 +8,7 @@ function App() {
         <HeaderComponent />
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<ProductListingComponent/>}></Route>
+                <Route path='/' element={<LoginPageComponent/>}></Route>
                            
             </Routes>
         </BrowserRouter>
