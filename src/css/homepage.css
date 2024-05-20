@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homediv p{
+    width: 50%;
+    margin: 20px;
+}

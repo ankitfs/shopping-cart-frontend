@@ -1,11 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import  '../css/login-form.css';
 
 const LoginPageComponent = () => {
 
+    const navigate = useNavigate();
+
     const loginFormSubmitHandler = (event) => {
         event.preventDefault();
         console.log('Login Form Submitted');
+        //TODO:: Authentication Logic needs to be added
+        navigate('/home');
     }
 
     return(

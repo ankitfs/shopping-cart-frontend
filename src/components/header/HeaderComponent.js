@@ -20,7 +20,7 @@ const HeaderComponent = () => {
         <header>
             {navigation}
             <div className="showcase">
-                <h2>Shopping Cart Management Portal</h2>
+                <center><h2>Shopping Cart Management Portal</h2></center>
             </div>
         </header>
     );

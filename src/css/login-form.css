@@ -1,17 +1,26 @@
-.login-form {
+.login-form, .add-product-form {
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
-.form-input-div label {
+.form-input-div label,  .add-product-form label{
     border: 1px solid lightgray;
     width: 30%;
-    padding: 5px 20px;
+    padding: 5px 5px 5px 20px;
     text-align: left;
 }
 
-.login-form h2 {
+.form-input-div {
+    padding: 5px;
+}
+
+.form-input-div input, .add-product-form input, .add-product-form select {
+    height: 22px;
+    margin-left: 10px;
+}
+
+.login-form h2, .add-product-form h2 {
     text-align: center;
     margin: 10px 0;
     color: green;
